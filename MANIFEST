@@ -2,6 +2,6 @@ Build.PL
 Changes
 lib/Acme/CPANAuthors/Padre.pm
 MANIFEST			This list of files
+META.yml
 README
 t/00-load.t
-META.yml

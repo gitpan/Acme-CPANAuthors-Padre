@@ -4,34 +4,35 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 use Acme::CPANAuthors::Register (
-	TEEJAY       => "Aaron Trevena",
-	AZAWAWI      => "Ahmad M. Zawawi أحمد محمد زواوي",
-	ADAMK        => "Adam Kennedy",
-	GARU         => "Breno G. de Oliveira",
-	BRICAS       => "Brian Cassidy",
-	THEREK       => "Cezary Morga",
-	CHRISDOLAN   => "Chris Dolan",
-	CLAUDIO      => "Claudio Ramirez",
-	FAYLAND      => "Fayland Lam",
-	GABRIELMAD   => "Gabriel Vieira",
-	SZABGAB      => "Gábor Szabó - גאבור סבו",
-	HJANSEN      => "Heiko Jansen",
-	JQUELIN      => "Jérôme Quelin",
-	KAARE        => "Kaare Rasmussen",
-	KEEDI        => "Keedi Kim - 김도형",
-	ISHIGAKI     => "Kenichi Ishigaki",
-	CORION       => "Max Maischein",
-	PATSPAM      => "Patrick Donelan",
-	PMURIAS      => "Paweł Murias",
-	PSHANGOV     => "Petar Shangov",
-	RSN          => "Ryan Niebur",
-	SEWI         => "Sebastian Willing",
-	TSEE         => "Steffen Müller",
-	MGRIMES      => "Mark Grimes",
+	TEEJAY     => "Aaron Trevena",
+	AZAWAWI    => "Ahmad M. Zawawi أحمد محمد زواوي",
+	# Adam K refuses to take part in Acme::CPANAuthors
+	# ADAMK      => "Adam Kennedy",
+	GARU       => "Breno G. de Oliveira",
+	BRICAS     => "Brian Cassidy",
+	THEREK     => "Cezary Morga",
+	CHRISDOLAN => "Chris Dolan",
+	CLAUDIO    => "Claudio Ramirez",
+	FAYLAND    => "Fayland Lam",
+	GABRIELMAD => "Gabriel Vieira",
+	SZABGAB    => "Gábor Szabó - גאבור סבו",
+	HJANSEN    => "Heiko Jansen",
+	JQUELIN    => "Jérôme Quelin",
+	KAARE      => "Kaare Rasmussen",
+	KEEDI      => "Keedi Kim - 김도형",
+	ISHIGAKI   => "Kenichi Ishigaki",
+	CORION     => "Max Maischein",
+	PATSPAM    => "Patrick Donelan",
+	PMURIAS    => "Paweł Murias",
+	PSHANGOV   => "Petar Shangov",
+	RSN        => "Ryan Niebur",
+	SEWI       => "Sebastian Willing",
+	TSEE       => "Steffen Müller",
+	MGRIMES    => "Mark Grimes",
 );
 
 1; # End of Acme::CPANAuthors::Padre
@@ -52,7 +53,7 @@ Acme::CPANAuthors::Padre - We are the Padre CPAN authors
    my @ids      = $authors->id;
    my @distros  = $authors->distributions("sewi");
    my $url      = $authors->avatar_url("szabgab");
-   my $kwalitee = $authors->kwalitee("adamk");
+   my $kwalitee = $authors->kwalitee("fayland");
    my $name     = $authors->name("azawawi");
 
 =head1 DESCRIPTION

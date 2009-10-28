@@ -1,6 +1,6 @@
 ---
 name: Acme-CPANAuthors-Padre
-version: 0.01
+version: 0.02
 author:
   - 'Ahmad M. Zawawi <ahmad.zawawi@gmail.com>'
 abstract: We are the Padre CPAN authors
@@ -8,7 +8,7 @@ license: perl
 resources:
   homepage: http://padre.perlide.org/
   license: http://dev.perl.org/licenses/
-  repository: http://svn.perlide.org/padre/trunk/Padre-Plugin-Perl6/
+  repository: http://svn.perlide.org/padre/trunk/Acme-CPANAuthors-Padre
 build_requires:
   Test::More: 0
 requires:
@@ -19,7 +19,7 @@ configure_requires:
 provides:
   Acme::CPANAuthors::Padre:
     file: lib/Acme/CPANAuthors/Padre.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.35
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
